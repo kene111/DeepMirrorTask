@@ -24,7 +24,7 @@ Notebook training with and without the addition of feature noise can be found he
 ### Total Training Loss without Feature Noise:
 ![Total Loss - - Without Feature Noise](images/Training_Loss_No_Feature_Noise.png)
 
-As seen above, the training loss of the model without feature was lower than that of the model with feature noise but both models still had good performance.
+As seen above, the training loss of the model without feature noise was lower than that of the model with feature noise but both models still had good performance.
 
 
 ### Approach Taken to Add Feature Noise:
