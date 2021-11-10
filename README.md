@@ -26,6 +26,7 @@ Notebook training with and without the addition of feature noise can be found he
 
 As seen above, the training loss of the model without feature was lower than that of the model with feature noise but both models still had good performance.
 
+
 ### Approach Taken to add Feature Noise:
 
 The simple implementation as described in the mail was used, i.e multiplcation of a noise value within the range of 0.8 to 1.2 with the tensor output (feature space) from the 
