@@ -23,3 +23,17 @@ Notebook training with and without the addition of feature noise can be found he
 
 ### Total Training Loss without Feature Noise
 ![Total Loss - - Without Feature Noise](images/Training_Loss_No_Feature_Noise.png)
+
+
+### To reproduce the Results:
+
+Run the provided notebooks
+
+1) Make sure to properly link the local detectron2 folder to the notebook.
+2) Make sure the path to the dataset is propely written
+3) When training using feature noise, visit rcnn.py in the detectron2 folder and un-comment the logic that adds noise to the feature space. Save, restart and run notebook.
+To locate the [rcnn.py](https://drive.google.com/file/d/1YNlQWaL1a0UHPEHCXPASzTyORGy6a4HM/view?usp=sharing). Below is the path way to find the rcnn.py
+
+detectron2 -> detectron2-> modelling -> meta_arch -> rcnn.py
+
+3) To run notebook without adding noise, comment out the noise adding logic in rcnn.py file. Save, restart and re-run the notebook.
