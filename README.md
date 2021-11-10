@@ -37,3 +37,7 @@ To locate the [rcnn.py](https://drive.google.com/file/d/1YNlQWaL1a0UHPEHCXPASzTy
 detectron2 -> detectron2-> modelling -> meta_arch -> rcnn.py
 
 3) To run notebook without adding noise, comment out the noise adding logic in rcnn.py file. Save, restart and re-run the notebook.
+
+
+
+##### Note: Addition of the local detectron2 folder and dataset used to the repo could not be done due to how large they were, hence stored on google drive.
