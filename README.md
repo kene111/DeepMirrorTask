@@ -2,8 +2,8 @@
 
 ### Model Structure:
 
-Notebook Folder: This contains the notebook used in training and running inference on the model.
-Images: This contains the total training loss for training sessions when feature noise was added, and when feature noise was not added.
+1) Notebook Folder: This contains the notebook used in training and running inference on the model.
+2) Images: This contains the total training loss for training sessions when feature noise was added, and when feature noise was not added.
 
 
 ### Procedure Taken:
