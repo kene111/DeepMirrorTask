@@ -27,7 +27,7 @@ Notebook training with and without the addition of feature noise can be found he
 As seen above, the training loss of the model without feature was lower than that of the model with feature noise but both models still had good performance.
 
 
-### Approach Taken to add Feature Noise:
+### Approach Taken to Add Feature Noise:
 
 The simple implementation as described in the mail was used, i.e multiplcation of a noise value within the range of 0.8 to 1.2 with the tensor output (feature space) from the 
 maskRCNN backone just before the region propsal network. This implementation is found in the forward function found in the [rcnn.py](https://drive.google.com/file/d/1YNlQWaL1a0UHPEHCXPASzTyORGy6a4HM/view?usp=sharing) file.
