@@ -14,14 +14,14 @@
 
 3) Addition of the Feature noise was done [here](https://drive.google.com/file/d/1YNlQWaL1a0UHPEHCXPASzTyORGy6a4HM/view?usp=sharing), in the local detectron2 architecture folder.
 Notebook training with and without the addition of feature noise can be found here respectively: [Link 1](https://github.com/kene111/DeepMirrorTask/blob/main/NoteBooks/Deep_Mirror_ML_Task_Feature_Noise.ipynb),
-[Link 2](https://github.com/kene111/DeepMirrorTask/blob/main/NoteBooks/Deep_Mirror_ML_Task_No_Feature_Noise.ipynb)
+[Link 2](https://github.com/kene111/DeepMirrorTask/blob/main/NoteBooks/Deep_Mirror_ML_Task_No_Feature_Noise.ipynb).
 
 4) Comparing of Total training Loss is displayed below:
 
 ###  Total Training Loss with Feature Noise:
 ![Total Loss - With Feature Noise](images/Training_Loss_Feature_Noise.png)
 
-### Total Training Loss without Feature Noise
+### Total Training Loss without Feature Noise:
 ![Total Loss - - Without Feature Noise](images/Training_Loss_No_Feature_Noise.png)
 
 As seen above, the training loss of the model without feature was lower than that of the model with feature noise but both models still had good performance.
@@ -30,9 +30,9 @@ As seen above, the training loss of the model without feature was lower than tha
 Run the provided notebooks
 
 1) Make sure to properly link the local detectron2 folder to the notebook.
-2) Make sure the path to the dataset is propely written
+2) Make sure the path to the dataset is propely written.
 3) When training using feature noise, visit rcnn.py in the detectron2 folder and un-comment the logic that adds noise to the feature space. Save, restart and run notebook.
-To locate the [rcnn.py](https://drive.google.com/file/d/1YNlQWaL1a0UHPEHCXPASzTyORGy6a4HM/view?usp=sharing). Below is the path way to find the rcnn.py
+To locate the [rcnn.py](https://drive.google.com/file/d/1YNlQWaL1a0UHPEHCXPASzTyORGy6a4HM/view?usp=sharing). Below is the path way to find the rcnn.py.
 
 detectron2 -> detectron2-> modelling -> meta_arch -> rcnn.py
 
