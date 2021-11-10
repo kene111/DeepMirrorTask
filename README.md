@@ -2,8 +2,8 @@
 
 ### Model Structure:
 
-1) Notebook Folder: This contains the notebook used in training and running inference on the model.
-2) Images: This contains the total training loss for training sessions when feature noise was added, and when feature noise was not added.
+1) NoteBooks: This contains the notebooks used in training and testing.
+2) images: This contains the total training loss for training sessions when feature noise was added, and when feature noise was not added.
 
 
 ### Procedure Taken:
@@ -16,7 +16,7 @@
 Notebook training with and without the addition of feature noise can be found here respectively: [Link 1](https://github.com/kene111/DeepMirrorTask/blob/main/NoteBooks/Deep_Mirror_ML_Task_Feature_Noise.ipynb),
 [Link 2](https://github.com/kene111/DeepMirrorTask/blob/main/NoteBooks/Deep_Mirror_ML_Task_No_Feature_Noise.ipynb).
 
-4) Comparing of Total training Loss is displayed below:
+4) Comparison of Total training Loss is displayed below:
 
 ###  Total Training Loss with Feature Noise:
 ![Total Loss - With Feature Noise](images/Training_Loss_Feature_Noise.png)
@@ -30,7 +30,7 @@ As seen above, the training loss of the model without feature was lower than tha
 ### Approach Taken to Add Feature Noise:
 
 The simple implementation as described in the mail was used, i.e multiplcation of a noise value within the range of 0.8 to 1.2 with the tensor output (feature space) from the 
-maskRCNN backone just before the region propsal network. This implementation is found in the forward function found in the [rcnn.py](https://drive.google.com/file/d/1YNlQWaL1a0UHPEHCXPASzTyORGy6a4HM/view?usp=sharing) file.
+maskRCNN backone just before the region propsal network. This implementation is found in the forward function in the [rcnn.py](https://drive.google.com/file/d/1YNlQWaL1a0UHPEHCXPASzTyORGy6a4HM/view?usp=sharing) file.
 
 
 ### To reproduce the Results:
