@@ -1,6 +1,6 @@
 # DeepMirrorTask
 
-### Model Structure:
+### Repo Structure:
 
 1) NoteBooks: This contains the notebooks used in training and testing.
 2) images: This contains the total training loss for training sessions when feature noise was added, and when feature noise was not added.
